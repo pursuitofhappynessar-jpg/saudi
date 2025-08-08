@@ -101,7 +101,7 @@ const NavbarEn = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-6">
             <div className="flex items-baseline space-x-4">
               {menuItems.map((item) => (
                 <div
@@ -144,7 +144,7 @@ const NavbarEn = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="lg:hidden flex items-center space-x-2">
+          <div className="lg:hidden flex items-center space-x-4">
             <LanguageSwitcher />
             <button
               onClick={() => setIsOpen(!isOpen)}

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Globe } from 'lucide-react';
 
 const LanguageSwitcher = () => {
   const navigate = useNavigate();
@@ -25,10 +24,9 @@ const LanguageSwitcher = () => {
   return (
     <button
       onClick={switchLanguage}
-      className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 bg-white/10 hover:bg-white/20 text-white border border-white/20 hover:border-white/40"
+      className="flex items-center justify-center px-6 py-3 rounded-lg text-lg font-bold transition-all duration-300 bg-teal-600 hover:bg-teal-700 text-white border-2 border-teal-600 hover:border-teal-700 shadow-md hover:shadow-lg transform hover:scale-105 min-w-[80px]"
     >
-      <Globe className="w-4 h-4" />
-      <span>{isEnglish ? 'العربية' : 'English'}</span>
+      <span className="font-tajawal">{isEnglish ? 'AR' : 'EN'}</span>
     </button>
   );
 };
