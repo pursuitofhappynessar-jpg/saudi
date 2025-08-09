@@ -73,7 +73,7 @@ const FooterEn = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="w-4 h-4 text-orange-400 mr-2 flex-shrink-0" />
-                <span className="text-gray-300 text-sm">info@medicaltourism.sa</span>
+                <span className="text-gray-300 text-sm">info@saudimt2025.com</span>
               </div>
             </div>
           </div>
