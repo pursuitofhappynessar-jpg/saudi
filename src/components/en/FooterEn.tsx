@@ -81,7 +81,7 @@ const FooterEn = () => {
 
         <div className="border-t border-darkBlue-700 mt-12 pt-8 text-center">
           <p className="text-gray-300">
-            © 2024 Medical Tourism Association. All rights reserved.
+            © 2025 Medical Tourism Association. All rights reserved.
           </p>
         </div>
       </div>
