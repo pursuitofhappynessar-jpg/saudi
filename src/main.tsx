@@ -5,7 +5,7 @@ import App from './App.tsx';
 import './index.css';
 
 // Initialize EmailJS
-emailjs.init("");
+emailjs.init("lqrMYSVCqTsNF69Lq");
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
