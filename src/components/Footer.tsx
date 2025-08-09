@@ -81,7 +81,7 @@ const Footer = () => {
 
         <div className="border-t border-darkBlue-700 mt-12 pt-8 text-center">
           <p className="text-gray-300">
-            © 2024 جمعية السياحة العلاجية. جميع الحقوق محفوظة.
+            © 2025 جمعية السياحة العلاجية. جميع الحقوق محفوظة.
           </p>
         </div>
       </div>
